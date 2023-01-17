@@ -32,7 +32,6 @@ object Theme {
         @Composable
         get() = LocalThemeColors.current
 
-
     val dimens: Dimens
         @Composable
         get() = platformDimens()
